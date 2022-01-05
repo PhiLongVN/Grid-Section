@@ -14,9 +14,11 @@ body {
 
   display: grid;
   gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "daniel daniel jonathan kira"
-    "jean patrick patrick kira";
+    "jean patrick patrick  kira";
 }
 
 /* ========================================================================== */
@@ -80,7 +82,6 @@ body {
 /* -------------------------------- .jonathan ------------------------------- */
 .jonathan {
   background: #49556b;
-
   grid-area: jonathan;
 }
 
